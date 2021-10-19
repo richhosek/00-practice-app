@@ -1,17 +1,10 @@
+// TODO: Add a comment giving a brief description of what React is
 import React from 'react';
+
+// TODO: Add a comment that describes the difference between react and react-dom
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// TODO: Add a comment describing the significance of the ReactDOM.render method
+ReactDOM.render(<App />, document.getElementById('root'));
